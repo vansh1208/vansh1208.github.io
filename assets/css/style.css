@@ -1197,6 +1197,11 @@ nav ul li a:hover::after{
     width: 100%;
   }
 
+  .text-box {
+    max-width: 96% !important;
+    font-size: 20vw;
+  }
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -1296,6 +1301,11 @@ nav ul li a:hover::after{
     display: none;
     float: none;
     width: 100%;
+  }
+
+  .text-box {
+    max-width: 96% !important;
+    font-size: 20vw;
   }
 
   .nav-menu li {
