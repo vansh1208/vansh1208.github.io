@@ -185,6 +185,7 @@ p {
 }
 
 .container-hero{
+  width: 100%;
   margin: 0 auto;
   height: 100vh;
   background-size: cover;
@@ -1197,9 +1198,16 @@ nav ul li a:hover::after{
     width: 100%;
   }
 
+  .text-box h1 {
+    font-size: 100px;
+  }
+
   .text-box {
-    max-width: 96% !important;
-    font-size: 20vw;
+    bottom: 15%;
+  }
+
+  .text-box h3 {
+    font-size: 22px;
   }
 
   .nav-menu li {
@@ -1303,9 +1311,16 @@ nav ul li a:hover::after{
     width: 100%;
   }
 
+  .text-box h1 {
+    font-size: 90px;
+  }
+
   .text-box {
-    max-width: 96% !important;
-    font-size: 20vw;
+    bottom: 25%;
+  }
+
+  .text-box h3 {
+    font-size: 20px;
   }
 
   .nav-menu li {
