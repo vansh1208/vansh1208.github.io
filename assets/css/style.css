@@ -350,6 +350,62 @@ nav ul li a:hover::after{
 }
 
 /*--------------------------------------------------------------
+# Scroll Text
+--------------------------------------------------------------*/
+
+.scrolling-text{
+  background-color: #fbfbfb;
+  margin: 0;
+  padding: 0;
+  height: 110vw;
+  overflow-x: hidden;
+}
+.scrolling-text h1{
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-40%);
+  white-space: nowrap;
+  font-size: 120px;
+  left: 100vw;
+}
+
+/* Scroller styling */
+.scroller {
+  height: 1.2em;
+  line-height: 1.2em;
+  position: relative;
+  overflow: hidden;
+  width: 10em;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.scroller > span {
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;
+  font-weight: bold;
+  
+}
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
+}
+
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
@@ -880,6 +936,7 @@ nav ul li a:hover::after{
 .contact .touch a {
   color: #222;
   position: relative;
+  font-weight: 700;
   text-decoration: none !important;
 }
 
