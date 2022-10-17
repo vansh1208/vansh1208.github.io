@@ -381,7 +381,7 @@ nav ul li a:hover::after{
   overflow: hidden;
   width: 10em;
   font-size: 30px;
-  margin-bottom: 15px;
+  margin: 30px 0;
 }
 .scroller > span {
   position: absolute;
@@ -1363,6 +1363,10 @@ nav ul li a:hover::after{
   /* Navbar */
   nav {
     padding: 20px 15px;
+  }
+
+  .scrolling-text {
+    font-size: 90px;
   }
 
   .nav-menu {
