@@ -33,6 +33,10 @@
     }
   }
 
+  jQuery(document).on('scroll', function(){
+    jQuery('h1').css("left", Math.max(360 - 0.2*window.scrollY) + "vw");
+  })
+
   setTimeout(function(){
     $('.loader-bg').fadeToggle();
   }, 2500);
