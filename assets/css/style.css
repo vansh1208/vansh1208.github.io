@@ -270,16 +270,26 @@ nav ul li a:hover::after{
 .text-box{
   color: #222;
   position: absolute;
-  bottom: 25%;
+  bottom: 20%;
 }
 
 .text-box p{
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 10px;
 }
 
 .text-box h1{
+  font-family: "poppins", sans-serif;
+  font-size: 120px;
+  line-height: 120px;
+  margin-left: -10px;
+  margin-bottom: 10px;
+  font-weight: 800;
+  margin-top: -21px;
+}
+
+.text-box h1 span{
   font-family: "poppins", sans-serif;
   font-size: 120px;
   line-height: 120px;
@@ -314,39 +324,29 @@ nav ul li a:hover::after{
   width: 60%;
 }
 
-.text-box a{
-  color: #222;
-  text-decoration: none;
-  padding: 10px 20px;
-  margin-right: 20px;
-  border: 2px solid #222;
-  display: flex;
-  align-items: center;
-}
-
-.text-box a span{
-  font-size: 30px;
-  line-height: 15px;
-  margin-left: 5px;
-}
-
 .social-icons{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 14px;
+}
+
+.catch_image{
+  background-image: url('../img/hero_img.jpg');
+  background-size: cover;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
 .social-icons img{
-  width: 40px;
+  width: 35px;
   display: block;
-  margin: 0 15px;
-  margin-bottom: 30px;
+  margin: 0 10px;
 }
 
 .linkedin{
-  width: 45px !important;
-  margin: 0 3px;
-  margin-bottom: 30px;
+  width: 40px !important;
 }
 
 /*--------------------------------------------------------------
@@ -979,6 +979,11 @@ nav ul li a:hover::after{
     border:0; 
   }
 
+  .text-box {
+    bottom: 15%;
+  }
+
+
   .nav-menu {
     margin-top: 40px;
     display: none;
@@ -1083,6 +1088,11 @@ nav ul li a:hover::after{
     width: 100%;
   }
 
+  .text-box {
+    bottom: 15%;
+  }
+
+
   .nav-menu li {
     float: none;
     width: 100%;
@@ -1169,6 +1179,10 @@ nav ul li a:hover::after{
     display: none;
     float: none;
     width: 100%;
+  }
+
+  .text-box {
+    bottom: 10%;
   }
 
   .nav-menu li {
@@ -1264,7 +1278,7 @@ nav ul li a:hover::after{
   }
 
   .text-box {
-    bottom: 15%;
+    bottom: 10%;
   }
 
   .text-box h3 {
@@ -1381,7 +1395,7 @@ nav ul li a:hover::after{
   }
 
   .text-box {
-    bottom: 15%;
+    bottom: 10%;
   }
 
   .text-box h3 {
