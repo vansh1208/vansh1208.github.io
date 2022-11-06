@@ -936,7 +936,7 @@ nav ul li a:hover::after{
 .contact .touch a {
   color: #222;
   position: relative;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none !important;
 }
 
