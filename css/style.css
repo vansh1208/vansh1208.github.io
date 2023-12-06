@@ -933,8 +933,8 @@ footer p span {
 }
 
 .navbar-brand > img {
-    width: 110%;
-    height: 150%;
+    width: 30px;
+    height: 30px;
 }
 
 ul.navbar-nav > li > a {
